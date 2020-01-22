@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    /* outline: 1px dotted red; */
+}
+
+.container {
+    width: 900px;
+    padding: 0px 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+    div.gold {
+        background-image: linear-gradient(to bottom, rgb(88, 88, 88), white, rgb(88, 88, 88));
+        margin-bottom: 20px;
+        height: 100px;
+        border: 1px solid grey;
+        border-radius: 4px;
+    }
+
+        #goldbar {
+            height: 75px;
+            width: 75px;
+            margin: 10px 20px;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 3px;
+            box-shadow: 2px 1px 4px black;
+        }
+
+        .gold h5 {                      /* Golds */
+            width: 100px;
+            display: inline-block;
+            text-align: left;
+            margin: 10px 0px;
+        }
+
+    #reset {
+        height: 40px;
+        width: 100px;
+        margin-top: 30px;
+    }
+
+    .card {
+        background-image: linear-gradient(to bottom, powderblue, white, powderblue);
+    }
+
+        .card img {
+            height: 100px;
+            width: 100px;
+            margin: 20px auto 0px auto;
+            border: 1px solid black;
+            border-radius: 3px;
+            box-shadow: 2px 1px 4px black;
+        }
+
+    #divider {
+        background-image: linear-gradient(to bottom, rgb(88, 88, 88), rgb(163, 163, 163), rgb(88, 88, 88));
+        margin: 20px 20% 5px 20%;
+        height: 5px;
+        width: 60%;
+        border-radius: 4px;
+        border: 1px solid grey;
+        display: block;
+    }
+
+    #activity_log {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #footerbox {
+        height: 220px;
+        background-image: linear-gradient(to bottom, powderblue, white, powderblue);
+        overflow: auto;
+        text-align: left;
+        padding: 10px 20px; 
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+    }
+
+        #footerbox p {
+            color: green;
+            margin: -5px;
+        }
+
+
+
